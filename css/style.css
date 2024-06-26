@@ -74,7 +74,7 @@ header nav ul li a:hover{
     text-decoration: none;
     color:  rgb(12, 209, 12);
 }
-/* header nav .profile{
+ header nav .profile{
     width: 70px;
     height: 60px;
     border-radius: 100%;
@@ -83,7 +83,7 @@ header nav ul li a:hover{
 }
 header nav .profile img{
     width: 100%;
-} */
+} 
 header nav ul li ul{
 
     display: none;
