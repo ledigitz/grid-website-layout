@@ -1,0 +1,88 @@
+ header{
+    background-color: #040479;
+    
+ }
+header nav{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header nav .logo{
+    color: rgb(12, 209, 12);
+    font-weight: bold;
+    font-size: 2rem;
+}
+header nav ul{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+header nav ul li{
+    list-style: none;
+    position: relative;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header nav .profile{
+    width: 80PX;
+    height: 80PX;
+    border-radius: 100%;
+    overflow: hidden;
+}
+header nav .profile img{
+    width: 100%;
+}
+header nav ul li ul{
+
+    display: none;
+    background-color: #040479;
+    flex-direction: column;
+    position: absolute;
+    width: 220% ;
+    top: 100%;
+}
+header nav ul li.first_drop:hover > ul{
+display: flex;
+}
+header nav ul li ul li a{
+    display: inline-block;
+padding: 10px 20px;   
+width: 100%;
+}
+header nav ul li ul li{
+    position: relative;
+}
+header nav ul li ul li a:hover{
+  background-color: rgb(109, 234, 64); 
+  color: #000; 
+}
+header nav ul li ul li ul{
+    display: none;
+    background-color: #040479;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 100%
+    ;
+}
+header nav ul li.first_drop ul li.second_drop:hover > ul{
+display: block;
+}
+
+header nav ul li ul li ul li ul{
+    display: none;
+    background-color: #040479;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    width: 100%
+    ;
+}
+header nav ul li.first_drop ul li.second_drop ul li.third_drop:hover > ul{
+display: block;
+}
